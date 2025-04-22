@@ -1,0 +1,77 @@
+/* ==========================
+   Overview Section Styling
+   ========================== */
+
+   .overview-section {
+    background: linear-gradient(to bottom, #f0faff, #ffffff);
+    padding: 5rem 2rem;
+    display: flex;
+    justify-content: center;
+    animation: fadeIn 1s ease-in;
+  }
+  
+  .overview-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+    max-width: 1100px;
+    background-color: #ffffff;
+    padding: 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease;
+  }
+  
+  .overview-container:hover {
+    transform: translateY(-4px);
+  }
+  
+  .overview-image img {
+    width: 100%;
+    max-width: 360px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 123, 255, 0.2);
+    transition: transform 0.4s ease;
+  }
+  
+  .overview-image img:hover {
+    transform: scale(1.03);
+  }
+  
+  .overview-text {
+    flex: 1;
+    min-width: 280px;
+  }
+  
+  .overview-text h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    color: #0077b6;
+    font-weight: 700;
+    border-left: 4px solid #0077b6;
+    padding-left: 0.75rem;
+  }
+  
+  .overview-text p {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    color: #444;
+  }
+  
+  /* ==========================
+     Fade-In Animation
+     ========================== */
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

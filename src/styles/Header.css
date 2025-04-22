@@ -1,0 +1,16 @@
+.header {
+    background-color: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  .header p {
+    margin: 0.5rem 0 0;
+  }
+  

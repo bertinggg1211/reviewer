@@ -1,0 +1,22 @@
+.types-diabetes {
+    padding: 2rem;
+  }
+  
+  .types-diabetes h2 {
+    text-align: center;
+    color: #0077b6;
+  }
+  
+  .diabetes-type {
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .diabetes-type img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
